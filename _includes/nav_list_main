@@ -9,7 +9,7 @@
       </li>
       <li>
         <span class="nav__sub-title">C/C++/C#</span>
-            <ul>
+            <!-- <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
                         <li><a href="/categories/cpp" class="">C ++ ({{category[1].size}})</a></li>
@@ -250,25 +250,25 @@
                         <li><a href="/categories/blender" class="">Blender ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
-            <ul>
+            </ul> -->
+           <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Git" %}
                         <li><a href="/categories/git" class="">Git & Github ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul>
+            <!-- <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "VS" %}
                         <li><a href="/categories/vs" class="">비주얼 스튜디오 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
+            </ul> -->
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Bitcoin" %}
-                        <li><a href="/categories/bitcoin" class="">블록체인 암호화폐 ({{category[1].size}})</a></li>
+                    {% if category[0] == "swift" %}
+                        <li><a href="/categories/swift" class="">Swift ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -276,6 +276,7 @@
       <li>	
             <br>      
             <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fansohxxn.github.io&count_bg=%23FFCC35&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false">
+            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fansohxxn.github.io&count_bg=%A96303&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false">
       </li>
   </ul>
 </nav>
