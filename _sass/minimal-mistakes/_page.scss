@@ -348,8 +348,8 @@ body {
   border-radius: $border-radius;
   background-color: mix(#fff, #4D5357, 18%);
   font-family: $serif;
-  // color: mix(#fff, $primary-color, 2%);;
-  color: mix(#fff, 2%);
+  color: mix(#fff, $primary-color, 2%);;
+  // color: mix(#fff, 2%);
 
   &:hover {
     text-decoration: none;
