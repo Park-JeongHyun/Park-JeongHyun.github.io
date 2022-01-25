@@ -1,7 +1,7 @@
 ---
-title: "암호화폐에 대한 개인적인 호기심"
+title: "swift"
 layout: archive
-permalink: categories/bitcoin
+permalink: categories/swift
 author_profile: true
 sidebar_main: true
 ---
